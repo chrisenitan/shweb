@@ -1,0 +1,117 @@
+body {
+  height: auto;
+  width: 170px;
+  padding: 3px;
+  background-color: #fff;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  font-family: "Calibri", "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 40px;
+  height: auto;
+}
+#main {
+  background-color: #192027;
+  max-width: 100%;
+  margin: auto;
+  height: auto;
+  padding: 3%;
+  box-shadow: 0px 0px 5px 1px #727272;
+}
+#nextSwitch {
+  height: auto;
+  width: 97%;
+  outline: none;
+  background-color: #097b71;
+  border: none;
+  padding: 1%;
+  margin: auto;
+  border-radius: 3px;
+}
+#nextSwitchTime {
+  color: #47f6f6;
+  font-size: 14px;
+}
+.web {
+  display: none;
+}
+input {
+  color: #00ff08;
+  width: 42%;
+  height: 20px;
+  border: none;
+  outline: none;
+  background-color: #283b4f;
+  border-radius: 3px;
+  margin-top: 5px;
+  text-align: center;
+  font-family: "Calibri", "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+button {
+  color: #131e28;
+  width: 45%;
+  height: 25px;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ffffff;
+  outline: none;
+  background-color: #0a8c8b;
+  border-radius: 3px;
+  margin-top: 5px;
+  text-align: center;
+  margin-bottom: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-family: "Calibri", "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+button:hover {
+  background-color: #0cc2c1;
+}
+input[type="file"] {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 6px 6px 6px;
+  cursor: pointer;
+  width: 82px;
+}
+.lBtn {
+  margin-left: 47%;
+}
+.hintText {
+  font-size: 11px;
+  color: #fff;
+}
+.mainText {
+  font-size: 16px;
+  color: #47f685;
+}
+#startDark {
+  background-color: #274d79;
+  color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#startDark:hover {
+  background-color: #1c2b3c;
+}
+.links {
+  font-size: 11px;
+  color: #4df785;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.links:hover {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+#unRelease {
+  outline: none;
+  /**display: none;**/
+}
