@@ -1,7 +1,7 @@
 {
   "name": "Shweb",
   "permissions": ["activeTab", "declarativeContent", "scripting"],
-  "version": "1.04",
+  "version": "1.0.1",
   "manifest_version": 3,
   "description": "Transport website local storage by importing or exporting them from the browser",
   "background": {

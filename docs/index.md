@@ -1,8 +1,14 @@
 -- Overview --
 Shweb is a browser extension for bulk managing websites local storage. Export websites local storage data as a backup or import your backed up storage file when needed.
-Good for backing up and restoring site settings, background data and other site specific functional data. Read more about how websites use local storage to give you a better experience: https://dev.to/dboatengx/javascript-local-storage-explained-1di6
 
-- Features
+-- What it does --
+- Often times, web applications use local storage to store settings, text field values and other website specifc assets, having them backed up and available to sue on any browser/device is a productivity hack.
+- Did you know you can loose these if you logout or reset something on your browser like cache.
+- Avoid that with Shweb. Shweb allows you back up those notes via browser `local-storage`
+  - with an interface you can use to import and export those local storage content. And for all other safety reasons its worth:
+-  Read more about how websites use local storage to give you a better experience: https://dev.to/dboatengx/javascript-local-storage-explained-1di6
+
+-- Features --
 
 1. Export websites local storage data
 2. Import exported local storage from specific website (to one or more sites)
