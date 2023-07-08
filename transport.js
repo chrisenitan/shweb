@@ -1,6 +1,4 @@
 //allows import and export of local storage via web apis
-const date = new Date()
-const timeStamp = `${date.getFullYear()}_${date.getMonth() + 1}_${date.getDate()}`
 
 const transport = {
   importListener: () => {
@@ -37,6 +35,8 @@ const transport = {
   },
 
   export: () => {
+    const date = new Date()
+    const timeStamp = `${date.getFullYear()}_${date.getMonth() + 1}_${date.getDate()}`
     const link = document.createElement("a")
     const content = JSON.stringify(localStorage)
     const file = new Blob([content], { type: "text/plain" })

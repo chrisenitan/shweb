@@ -19,12 +19,5 @@
     "32": "images/shweb32.png",
     "48": "images/shweb48.png",
     "128": "images/shweb128.png"
-  },
-  "content_scripts": [
-    {
-      "matches": ["https://*/*"],
-      "run_at": "document_idle",
-      "js": ["transport.js"]
-    }
-  ]
+  }
 }
