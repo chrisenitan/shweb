@@ -1,13 +1,14 @@
 //allows import and export of local storage via web apis
-
 const transport = {
   importListener: () => {
     const fileReader = new FileReader()
+    const inputField = document.getElementById("localStorageFile")
     fileReader.onload = function (event) {
       transport.prepareImport(fileReader.result)
+      inputField.value = "" //resets field for identifiable subsequent uploads
     }
-    if (document.getElementById("localStorageFile")) {
-      document.getElementById("localStorageFile").onchange = function (event) {
+    if (inputField) {
+      inputField.onchange = function (event) {
         fileReader.readAsText(event.target.files[0])
       }
     }
@@ -41,7 +42,7 @@ const transport = {
     const content = JSON.stringify(localStorage)
     const file = new Blob([content], { type: "text/plain" })
     link.href = URL.createObjectURL(file)
-    link.download = `shweb_${timeStamp}.txt`
+    link.download = `shweb_${window.location.hostname}_${timeStamp}.txt`
     link.click()
     URL.revokeObjectURL(link.href)
   },

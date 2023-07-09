@@ -37,9 +37,6 @@ img {
   color: #47f6f6;
   font-size: 14px;
 }
-.web {
-  display: none;
-}
 input {
   color: #00ff08;
   width: 42%;
@@ -91,15 +88,6 @@ input[type="file"] {
   font-size: 16px;
   color: #47f685;
 }
-#startDark {
-  background-color: #274d79;
-  color: #fff;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-#startDark:hover {
-  background-color: #1c2b3c;
-}
 .links {
   font-size: 11px;
   color: #4df785;
@@ -110,8 +98,4 @@ input[type="file"] {
 .links:hover {
   text-decoration: underline;
   text-underline-position: under;
-}
-#unRelease {
-  outline: none;
-  /**display: none;**/
 }
