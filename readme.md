@@ -2,12 +2,12 @@
 
 A browser extension for transporting local-storage
 
-- [Extension on Google Chrome Store](https://chrome.google.com/webstore/search/shwave)
+- [Extension on Chrome Web Store](https://chrome.google.com/webstore/detail/shweb/jbijcfmbaapjhdfjccgjlcjdfkdcpijl)
 
 **Why**
 
-- Often times, web applications use local storage to store settings, text field values and other website specifc assets, having them backed up and available to sue on any browser/device is a productivity hack.
-- Did you know you can loose these if you logout or reset something on your browser like cache.
+- Often times, web applications use local storage to store settings, text field values and other website specific assets, having them backed up and available to use on any browser/device is a productivity hack.
+- Did you know you can loose these if you logout or reset something on your browser like application/device storage.
 - Avoid that with Shweb. Shweb allows you back up those notes via browser `local-storage`
   - with an interface you can use to import and export those local storage content. And for all other safety reasons its worth:
     - website settings...
