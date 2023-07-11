@@ -1,7 +1,7 @@
 {
   "name": "Shweb",
   "permissions": ["activeTab", "scripting"],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "manifest_version": 3,
   "description": "The easiest way to export or import any websites local storage data",
   "action": {

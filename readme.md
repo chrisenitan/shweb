@@ -2,7 +2,7 @@
 
 A browser extension for transporting local-storage
 
-- [Extension on Chrome Web Store](https://chrome.google.com/webstore/detail/shweb/jbijcfmbaapjhdfjccgjlcjdfkdcpijl)
+- [Extension on Chrome Web Store](https://chrome.google.com/webstore/detail/shweb/phkmjbhbifbdjbdolkcfepehpdpcojbg)
 
 **Why**
 
