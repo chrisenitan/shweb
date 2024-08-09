@@ -1,9 +1,9 @@
 {
-  "name": "Shweb",
+  "name": "Shweb Local storage toolkit",
   "permissions": ["activeTab", "scripting"],
   "version": "1.0.2",
   "manifest_version": 3,
-  "description": "The easiest way to export or import any websites local storage data",
+  "description": "The easiest way to export and import websites local storage data",
   "action": {
     "default_title": "Shweb for Webapp",
     "default_popup": "home.html",
