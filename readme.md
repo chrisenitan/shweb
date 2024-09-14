@@ -2,7 +2,7 @@
 
 A browser extension for transporting local-storage
 
-- [Extension on Google Chrome Store](https://chrome.google.com/webstore/search/shwave)
+- [Extension on Google Chrome Store](https://chrome.google.com/webstore/search/shweb)
 
 **Why**
 
